@@ -25,6 +25,21 @@ apiRouter.post('/score', (req, res) => {
   res.send(scores);
 });
 
+function submitDataToBackend(data) {
+  fetch('/api/data', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+  })
+      .then(response => response.json())
+      .then(responseData => {
+          // Handle the response from your service
+      })
+      .catch(error => console.error(error));
+}
+
 // Return the application's default page if the path is unknown
 app.use((_req, res) => {
   res.sendFile('index.html', { root: 'public' });
