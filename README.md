@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # simon-service
 
 This deliverable demonstrates converting the JavaScript application into a web application by implementing a web service that listens on a network port for HTTP requests.
@@ -84,3 +85,8 @@ The about page gives photos and quotes
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server.
 - **Frontend calls service endpoints** -  I did this using the fetch function.
 >>>>>>> 8618566882fcc86ef003c3bb0faa2f705279e607
+=======
+# simon-javascript
+
+This deliverable demonstrates the use of basic JavaScript for interactivity.
+>>>>>>> origin/main

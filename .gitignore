@@ -1,5 +1,9 @@
 .vscode/
+<<<<<<< HEAD
 .DS_Store
 node_modules/
 dist/
 dbConfig.json
+=======
+.DS_Store
+>>>>>>> origin/main
